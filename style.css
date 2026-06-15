@@ -1,0 +1,302 @@
+/*
+ * Epinova Brand System
+ * Matchet mot all_by_myself_dialog.pptx og epinova.no
+ *
+ * Teal:        #146E6E
+ * Dark:        #161616
+ * White:       #FFFFFF
+ * Soft teal:   #D0E6E5
+ * Light gray:  #F4F4F4
+ */
+
+/* ─── BASE ─────────────────────────────────────────────────── */
+
+* { box-sizing: border-box; }
+
+.slidev-layout {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── COVER (teal – matcher PPTX tittelside) ──────────────── */
+
+.slidev-layout.cover {
+  background: #146E6E !important;
+  color: #fff;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+  display: block !important;
+}
+
+/* ─── CONTENT SLIDES ──────────────────────────────────────── */
+
+.slidev-layout.default,
+.slidev-layout.two-cols {
+  background: #ffffff !important;
+  color: #161616;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Teal toppstripe på innholds-slides */
+.slidev-layout.default::before,
+.slidev-layout.two-cols::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: #146E6E;
+  z-index: 10;
+}
+
+/* ─── HEADINGS ─────────────────────────────────────────────── */
+
+.slidev-layout.default h1,
+.slidev-layout.two-cols h1 {
+  color: #146E6E;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 2.4rem 2.8rem 0.3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #D0E6E5;
+}
+
+.slidev-layout.default h2,
+.slidev-layout.two-cols h2 {
+  color: #146E6E;
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── INNHOLDS-CONTAINER ───────────────────────────────────── */
+
+.slide-body {
+  padding: 1rem 2.8rem 1.5rem;
+}
+
+/* ─── CARDS ────────────────────────────────────────────────── */
+
+.ep-card {
+  background: #F4F4F4;
+  border-left: 4px solid #146E6E;
+  border-radius: 0 6px 6px 0;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  transition: background 0.2s;
+}
+
+.ep-card-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1.7; }
+.ep-card-body { flex: 1; font-size: 0.97rem; line-height: 1.55; }
+.ep-card strong { color: #146E6E; font-weight: 700; }
+.ep-card-danger { border-left-color: #c0392b; background: #fff5f5; }
+.ep-card-muted  { border-left-color: #bbb; background: #f9f9f9; }
+
+/* ─── GRID ─────────────────────────────────────────────────── */
+
+.ep-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.8rem; }
+.ep-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.8rem; margin-top: 0.8rem; }
+
+/* ─── SITAT ─────────────────────────────────────────────────── */
+
+.ep-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #146E6E;
+  border-left: 5px solid #146E6E;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem 0;
+  background: #F4F4F4;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.4;
+}
+
+/* ─── KODE ──────────────────────────────────────────────────── */
+
+code {
+  background: #e8f4f4;
+  color: #0d5555;
+  padding: 0.1em 0.45em;
+  border-radius: 4px;
+  font-size: 0.86em;
+  font-family: 'Courier New', monospace;
+}
+
+/* ─── TABELL ────────────────────────────────────────────────── */
+
+table {
+  width: calc(100% - 5.6rem);
+  margin: 0.8rem 2.8rem 0;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+
+table th {
+  background: #146E6E;
+  color: #fff;
+  padding: 0.55em 1em;
+  text-align: left;
+  font-weight: 700;
+}
+
+table td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e8e8e8;
+  color: #161616;
+}
+
+table tr:nth-child(even) td { background: #F4F4F4; }
+
+/* ─── TWO-COLS ──────────────────────────────────────────────── */
+
+.slidev-layout.two-cols .col-left  { padding-left: 2.8rem !important; }
+.slidev-layout.two-cols .col-right { padding-right: 2.8rem !important; }
+
+/* ─── DRAMA-SLIDE ───────────────────────────────────────────── */
+
+.drama-bg {
+  background: #7a1010 !important;
+  color: #fff !important;
+}
+.drama-bg::before { display: none !important; }
+.drama-bg h1 { color: #FFB3B3 !important; border: none !important; margin-top: 0 !important; }
+
+/* ─── OUTRO-SLIDE ───────────────────────────────────────────── */
+
+.outro-bg { background: #0c3a3a !important; }
+.outro-bg::before { background: rgba(255,255,255,0.2) !important; }
+.outro-bg h1 { color: #fff !important; border-color: rgba(255,255,255,0.25) !important; }
+
+/* ─── EPINOVA FOOTER ─────────────────────────────────────────── */
+
+.ep-footer {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 38px;
+  background: #F4F4F4;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.8rem;
+  font-size: 0.7rem;
+  color: #999;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.ep-footer .ep-logo-text {
+  color: #146E6E;
+  font-weight: 900;
+  font-size: 0.82rem;
+}
+
+/* ─── COVER INNHOLD ─────────────────────────────────────────── */
+
+.cover-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 2.8rem 3.2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cover-logo {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.cover-title-area {
+  margin-top: auto;
+  margin-bottom: 4.5rem;
+}
+
+.cover-title-area h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0;
+}
+
+.cover-title-area .cover-subtitle {
+  font-size: 1.15rem;
+  color: rgba(255,255,255,0.72);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.cover-title-area .cover-presenter {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.9);
+  margin-top: 1.2rem;
+  font-weight: 600;
+}
+
+/* ─── COVER: GEOMETRISK BUNNMØNSTER ────────────────────────── */
+
+.cover-pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 38%;
+  height: 130px;
+  z-index: 1;
+}
+
+.cover-bar-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 43%;
+  height: 58px;
+  background: #fff;
+  z-index: 1;
+}
+
+/* ─── SECTION DIVIDER SLIDES ───────────────────────────────── */
+
+.section-bg {
+  background: #146E6E !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.section-bg::before { display: none !important; }
+
+.section-bg h1 {
+  color: #fff !important;
+  font-size: 3.2rem !important;
+  border: none !important;
+  margin: 0 !important;
+}
+
+.section-bg p { color: rgba(255,255,255,0.8) !important; }
+
+/* ─── v-click ANIMASJON ─────────────────────────────────────── */
+
+.slidev-vclick-target {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(6px);
+}
