@@ -306,3 +306,7 @@ table tr:nth-child(even) td { background: #F4F4F4; }
   opacity: 0;
   transform: translateY(6px);
 }
+
+
+/* SKJUL NAVIGASJON */
+.slidev-navigation, .slidev-controls, .slidev-nav { display: none !important; }
