@@ -81,8 +81,7 @@ layout: two-cols
 ::right::
 
 <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:0.8rem;padding-top:2rem;">
-  <!-- Bytt med: <img src="/images/martin.jpg" style="border-radius:50%;width:200px;border:4px solid #146E6E;" /> -->
-  <div style="width:180px;height:180px;border-radius:50%;background:#D0E6E5;display:flex;align-items:center;justify-content:center;font-size:4.5rem;border:4px solid #146E6E;">🧑‍💻</div>
+  <img src="/images/martin.jpg" style="border-radius:50%;width:200px;height:200px;object-fit:cover;border:4px solid #146E6E;box-shadow:0 4px 20px rgba(20,110,110,0.3);" />
   <div style="font-size:1rem;font-weight:700;color:#146E6E;">Martin Brandal</div>
   <div style="margin-top:1rem;display:flex;flex-direction:column;align-items:center;gap:0.4rem;">
     <div style="font-size:2.2rem;">🦆</div>
@@ -164,9 +163,9 @@ layout: two-cols
 <div v-click class="ep-card ep-card-muted"><span class="ep-card-icon">🦗🦗🦗</span><div class="ep-card-body" style="color:#999;font-style:italic;">...</div></div>
 
 <!-- Bytt med: <img src="/images/this-is-fine.jpg" style="width:90%;border-radius:8px;margin-top:0.8rem;"/> -->
-<div v-click style="margin-top:1rem;background:#fff5e0;border-radius:8px;padding:1rem;text-align:center;border:1px solid #f0c060;">
-  <div style="font-size:2.5rem;">🐕🔥</div>
-  <div style="font-size:0.82rem;color:#888;font-style:italic;margin-top:0.3rem;">This is fine.</div>
+<div v-click style="margin-top:1rem;border-radius:8px;overflow:hidden;border:2px solid #f0c060;">
+  <img src="/images/this-is-fine.jpg" style="width:100%;display:block;" />
+  <div style="background:#fff5e0;font-size:0.78rem;color:#888;font-style:italic;padding:0.4rem 0.6rem;text-align:center;">This is fine.</div>
 </div>
 </div>
 </div>
@@ -224,6 +223,11 @@ layout: default
   <span style="color:#c0392b;font-weight:700;">Hvem satte opp denne integrasjonen uten dokumentasjon?</span><br/>
   <span style="color:#666;font-style:italic;">Det var meg. For 8 måneder siden. Jeg husker ingenting.</span>
 </div>
+
+<div v-click style="margin-top:0.5rem;border-radius:6px;overflow:hidden;border:1px solid #ddd;">
+  <img src="/images/hide-the-pain.jpg" style="width:100%;display:block;" />
+  <div style="background:#f9f9f9;font-size:0.75rem;color:#888;font-style:italic;padding:0.3rem 0.6rem;text-align:center;">«Jeg elsker å jobbe alene.»</div>
+</div>
 </div>
 </div>
 </div>
@@ -246,6 +250,9 @@ class: drama-bg
   </div>
   <div v-click style="margin-top:1.5rem;font-size:1.6rem;font-weight:900;color:#fff;">
     ...og det var meg.
+  </div>
+  <div v-click style="margin-top:1rem;border-radius:8px;overflow:hidden;max-width:280px;box-shadow:0 4px 20px rgba(0,0,0,0.4);">
+    <img src="/images/disaster-girl.jpg" style="width:100%;display:block;" />
   </div>
 </div>
 
