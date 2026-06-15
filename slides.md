@@ -1,10 +1,10 @@
 ﻿---
 theme: default
-title: "All by Myself – Martin Brandal"
+title: "All by Myself – Dialog 2026"
 colorSchema: light
 fonts:
-  sans: Arial
-  mono: Courier New
+  sans: Space Grotesk
+  mono: Fira Code
 transition: slide-left
 ---
 
@@ -19,7 +19,7 @@ layout: cover
   <div class="cover-title-area">
     <h1>All by Myself</h1>
     <p class="cover-subtitle">🎵 Eric Carmen, 1975 — overleve (og trives) som solo-utvikler</p>
-    <p class="cover-presenter">Martin Brandal &nbsp;·&nbsp; Epinova Academy 2026</p>
+    <p class="cover-presenter">Martin Brandal & Magnus Neergaard &nbsp;·&nbsp; Dialog 2026</p>
   </div>
 </div>
 
@@ -89,7 +89,7 @@ layout: two-cols
 
 <div class="ep-footer">
   <span class="ep-logo-text">Epinova</span>
-  <span>All by Myself · Academy 2026</span>
+  <span>All by Myself · Dialog 2026</span>
 </div>
 
 <!-- NOTER: Introduser gummianda tidlig. Den er med gjennom hele presentasjonen. -->
@@ -123,7 +123,7 @@ layout: default
 
 <div class="ep-footer">
   <span class="ep-logo-text">Epinova</span>
-  <span>All by Myself · Academy 2026</span>
+  <span>All by Myself · Dialog 2026</span>
 </div>
 
 <!-- NOTER: La memen sitte uten kommentar. 5 sekunder. Scroll videre. -->
@@ -133,16 +133,16 @@ layout: cover
 class: drama-bg
 ---
 
-<div class="cover-inner" style="align-items:center;justify-content:center;text-align:center;gap:0.5rem;">
-  <div style="font-size:4.5rem;line-height:1;">💥</div>
-  <h1 style="font-size:3.8rem;color:#FFB3B3;border:none;margin:0.2rem 0;">Den Store Dagen</h1>
-  <div style="font-size:1.4rem;color:rgba(255,255,255,0.8);margin-top:0.3rem;font-style:italic;">
+<div class="cover-inner" style="align-items:center;justify-content:center;text-align:center;gap:0.3rem;">
+  <div style="font-size:3rem;line-height:1;">💥</div>
+  <h1 style="font-size:3.2rem;color:#FFB3B3;border:none;margin:0.2rem 0;">Den Store Dagen</h1>
+  <div style="font-size:1.2rem;color:rgba(255,255,255,0.8);font-style:italic;">
     Granngården gikk ned. 6 timer. Prod.
   </div>
-  <div v-click style="margin-top:1.5rem;font-size:1.8rem;font-weight:900;color:#fff;">
+  <div v-click style="margin-top:1rem;font-size:1.5rem;font-weight:900;color:#fff;">
     Det var meg.
   </div>
-  <div v-click style="margin-top:1rem;border-radius:8px;overflow:hidden;max-width:260px;box-shadow:0 4px 20px rgba(0,0,0,0.5);">
+  <div v-click style="margin-top:0.8rem;border-radius:8px;overflow:hidden;max-width:220px;box-shadow:0 4px 20px rgba(0,0,0,0.5);">
     <img src="/images/disaster-girl.jpg" style="width:100%;display:block;" />
   </div>
 </div>
@@ -153,44 +153,44 @@ class: drama-bg
 layout: default
 ---
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:1.5rem 2.5rem 1rem;height:calc(100% - 4rem);">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;padding:1rem 2rem;height:calc(100% - 3rem);">
 
 <div>
-<h1 style="margin-bottom:1rem;">Hva skjedde?</h1>
-<div style="display:flex;flex-direction:column;gap:0.6rem;">
+<h1 style="margin-bottom:0.8rem;font-size:1.8rem;">Hva skjedde?</h1>
+<div style="display:flex;flex-direction:column;gap:0.5rem;">
 
 <div class="ep-card" v-click>
-  <div style="background:#146E6E;color:white;border-radius:50%;min-width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.9rem;flex-shrink:0;">1</div>
+  <div style="background:#146E6E;color:white;border-radius:50%;min-width:1.8rem;height:1.8rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.8rem;flex-shrink:0;">1</div>
   <div class="ep-card-body">Deployerte en <strong>«liten» endring</strong></div>
 </div>
 
 <div class="ep-card ep-card-danger" v-click>
-  <div style="background:#c0392b;color:white;border-radius:50%;min-width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.9rem;flex-shrink:0;">2</div>
+  <div style="background:#c0392b;color:white;border-radius:50%;min-width:1.8rem;height:1.8rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.8rem;flex-shrink:0;">2</div>
   <div class="ep-card-body"><strong>Alt gikk ned.</strong> 404 overalt.</div>
 </div>
 
 <div class="ep-card ep-card-danger" v-click>
-  <div style="background:#c0392b;color:white;border-radius:50%;min-width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.9rem;flex-shrink:0;">3</div>
-  <div class="ep-card-body">Telefonen ringte. Og ringte. Og ringte.</div>
+  <div style="background:#c0392b;color:white;border-radius:50%;min-width:1.8rem;height:1.8rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.8rem;flex-shrink:0;">3</div>
+  <div class="ep-card-body">Telefonen ringte. Og ringte.</div>
 </div>
 
 <div class="ep-card" v-click style="background:#fff5e0;border-left-color:#f39c12;">
-  <div style="background:#f39c12;color:white;border-radius:50%;min-width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.9rem;flex-shrink:0;">4</div>
-  <div class="ep-card-body"><strong>6 timer later:</strong> fixed. Stein rolig etterpå.</div>
+  <div style="background:#f39c12;color:white;border-radius:50%;min-width:1.8rem;height:1.8rem;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:0.8rem;flex-shrink:0;">4</div>
+  <div class="ep-card-body"><strong>6 timer later:</strong> fixed.</div>
 </div>
 
 </div>
 </div>
 
 <div v-click style="display:flex;align-items:center;justify-content:center;">
-  <img src="/images/this-is-fine.jpg" style="width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.12);" />
+  <img src="/images/this-is-fine.jpg" style="max-width:100%;max-height:320px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.12);object-fit:contain;" />
 </div>
 
 </div>
 
 <div class="ep-footer">
   <span class="ep-logo-text">Epinova</span>
-  <span>All by Myself · Academy 2026</span>
+  <span>All by Myself · Dialog 2026</span>
 </div>
 
 <!-- NOTER: Fortell sakte. Pause mellom hvert steg. «Stein rolig etterpå» — si det stolt og lavt. -->
@@ -201,46 +201,46 @@ layout: default
 
 # Hva lærte jeg?
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:0.5rem;">
-<div style="display:flex;flex-direction:column;gap:0.6rem;">
+<div style="display:grid;grid-template-columns:1fr 0.8fr;gap:1.2rem;margin-top:0.3rem;">
+<div style="display:flex;flex-direction:column;gap:0.5rem;">
 
 <div class="ep-card" v-click>
   <span class="ep-card-icon">🚨</span>
-  <div class="ep-card-body"><strong>Monitoring first</strong><br/><span style="font-size:0.85rem;color:#555;">Du bør vite om feilen FØR kunden ringer</span></div>
+  <div class="ep-card-body"><strong>Monitoring first</strong><br/><span style="font-size:0.82rem;color:#555;">Vit om feilen FØR kunden ringer</span></div>
 </div>
 
 <div class="ep-card" v-click>
   <span class="ep-card-icon">📝</span>
-  <div class="ep-card-body"><strong>Fremtidig-meg er en idiot</strong><br/><span style="font-size:0.85rem;color:#555;">Skriv det ned. Uansett.</span></div>
+  <div class="ep-card-body"><strong>Fremtidig-meg er en idiot</strong><br/><span style="font-size:0.82rem;color:#555;">Skriv det ned. Uansett.</span></div>
 </div>
 
 <div class="ep-card" v-click>
   <span class="ep-card-icon">🤖</span>
-  <div class="ep-card-body"><strong>AI er din code reviewer</strong><br/><span style="font-size:0.85rem;color:#555;">Copilot ser ting du ikke ser etter time 6</span></div>
+  <div class="ep-card-body"><strong>AI er din code reviewer</strong><br/><span style="font-size:0.82rem;color:#555;">Copilot ser ting du ikke ser</span></div>
 </div>
 
 <div class="ep-card" v-click style="background:#e8f4f4;border-left-color:#146E6E;">
   <span class="ep-card-icon">💬</span>
-  <div class="ep-card-body"><strong>Alene ≠ isolert</strong><br/><span style="font-size:0.85rem;color:#555;">Kollegaer i andre prosjekter. Bruk dem.</span></div>
+  <div class="ep-card-body"><strong>Alene ≠ isolert</strong><br/><span style="font-size:0.82rem;color:#555;">Kollegaer i andre prosjekter. Bruk dem.</span></div>
 </div>
 
 <div class="ep-card" v-click style="background:#e8f4f4;border-left-color:#146E6E;">
   <span class="ep-card-icon">🏆</span>
-  <div class="ep-card-body"><strong>Det er faktisk ganske kult</strong><br/><span style="font-size:0.85rem;color:#555;">All risen, all æren. Det er ditt.</span></div>
+  <div class="ep-card-body"><strong>Det er faktisk kult</strong><br/><span style="font-size:0.82rem;color:#555;">All risen, all æren.</span></div>
 </div>
 
 </div>
 
-<div v-click style="display:flex;flex-direction:column;gap:0.6rem;">
-  <img src="/images/hide-the-pain.jpg" style="width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.12);" />
-  <div style="font-size:0.78rem;color:#999;text-align:center;font-style:italic;">code reviewing yourself, ca uke 3</div>
+<div v-click style="display:flex;flex-direction:column;gap:0.5rem;align-items:center;justify-content:center;">
+  <img src="/images/hide-the-pain.jpg" style="max-width:100%;max-height:280px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.12);object-fit:contain;" />
+  <div style="font-size:0.75rem;color:#999;text-align:center;font-style:italic;">code reviewing yourself, uke 3</div>
 </div>
 
 </div>
 
 <div class="ep-footer">
   <span class="ep-logo-text">Epinova</span>
-  <span>All by Myself · Academy 2026</span>
+  <span>All by Myself · Dialog 2026</span>
 </div>
 
 <!-- NOTER: «Fremtidig-meg er en idiot» — si det med humor, ikke anger. Avslutt siste punkt med overbevisning. -->
@@ -255,7 +255,7 @@ class: outro-bg
   <div class="cover-title-area">
     <h1 style="color:#D0E6E5;">All by Myself...</h1>
     <p class="cover-subtitle" style="color:rgba(255,255,255,0.9);font-size:1.5rem;font-style:normal;font-weight:700;">...ikke helt 🦆</p>
-    <p class="cover-presenter">Martin Brandal &nbsp;·&nbsp; martin.brandal@epinova.no</p>
+    <p class="cover-presenter">Martin Brandal & Magnus Neergaard</p>
     <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:0.5rem;font-style:italic;">🎵 Don't wanna be all by myself anymore</p>
   </div>
 </div>
