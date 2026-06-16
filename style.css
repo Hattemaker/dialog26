@@ -9,6 +9,14 @@
  * Light gray:  #F4F4F4
  */
 
+/* ─── HIDE SLIDEV TOC/OVERVIEW SIDEBAR ─────────────────────── */
+
+.slidev-toc-list,
+#slidev-goto-dialog,
+.slidev-goto {
+  display: none !important;
+}
+
 /* ─── BASE ─────────────────────────────────────────────────── */
 
 * { box-sizing: border-box; }

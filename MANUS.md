@@ -121,13 +121,13 @@
 
 ---
 
-## Slide 6: Lærdommen
+## Slide 6: Læring
 
-**[Etter en sånn feil er ingenting skummelt lenger]**
+**Våg å gjøre feil.**
 
-1. **Vær i forkant av kunden**
+1. **Vær i forkant**
    - Monitoring og alerts
-   - Ring dem før de ringer deg
+   - Vit om det før kunden ringer
    - Viser at du har kontroll (selv når du ikke har det)
 
 2. **Dokumentér alt**
@@ -139,11 +139,6 @@
    - Alene på teamet ≠ isolert
    - Kollegaer, Slack, communities
    - Gummiand-debugging er reelt
-
-4. **Etter en katastrofe:**
-   - Alt annet føles håndterbart
-   - Du lærer mer av feil enn av suksess
-   - Det er faktisk ganske kult etterpå
 
 **[This is Fine-meme]**
 

@@ -8,6 +8,9 @@ fonts:
 transition: slide-left
 hideInToc: true
 navigator: false
+drawings:
+  enabled: false
+selectable: false
 ---
 
 ---
@@ -94,7 +97,7 @@ title: Granngården
   <h1 style="font-size:2.8rem;margin-bottom:0.6rem;color:#146E6E;">Granngården</h1>
   <p style="font-size:0.85rem;color:#666;margin-bottom:1rem;font-style:italic;">Sveriges største for hage, dyr og landbruk siden 1880</p>
   
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;margin-bottom:1rem;">
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;margin-bottom:0.8rem;">
     <div style="background:#e8f4f4;padding:0.6rem;border-radius:8px;text-align:center;">
       <div style="font-size:1.6rem;font-weight:900;color:#146E6E;">2,5</div>
       <div style="font-size:0.7rem;color:#555;">mrd SEK/år</div>
@@ -109,12 +112,23 @@ title: Granngården
     </div>
   </div>
   
-  <div style="font-size:0.8rem;color:#555;">
-    .NET 8 · Vue.js · Optimizely · Klarna · nShift
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;">
+    <div style="background:#e8f4f4;padding:0.6rem;border-radius:8px;text-align:center;">
+      <div style="font-size:1.6rem;font-weight:900;color:#146E6E;">200</div>
+      <div style="font-size:0.7rem;color:#555;">MSEK netthandel</div>
+    </div>
+    <div style="background:#e8f4f4;padding:0.6rem;border-radius:8px;text-align:center;">
+      <div style="font-size:1.6rem;font-weight:900;color:#146E6E;">10</div>
+      <div style="font-size:0.7rem;color:#555;">mikrotjenester</div>
+    </div>
+    <div style="background:#e8f4f4;padding:0.6rem;border-radius:8px;text-align:center;">
+      <div style="font-size:1.6rem;font-weight:900;color:#146E6E;">15k+</div>
+      <div style="font-size:0.7rem;color:#555;">produkter</div>
+    </div>
   </div>
   
-  <div v-click style="margin-top:1.2rem;padding-top:1rem;border-top:2px solid #c0392b;">
-    <span style="font-size:1.5rem;font-weight:900;color:#c0392b;">Teamstørrelse: 1,4</span>
+  <div v-click style="margin-top:1.5rem;text-align:center;">
+    <div style="font-size:2.8rem;font-weight:900;color:#c0392b;">Teamstørrelse: 1,4</div>
   </div>
 </div>
 
@@ -133,17 +147,55 @@ title: Granngården
 </div>
 
 ---
+layout: default
+title: Utfordringer
+---
+
+<div style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:2rem;height:calc(100% - 2rem);align-items:center;padding:1.5rem 2rem;">
+
+<div>
+  <h1 style="font-size:2.4rem;margin-bottom:1.2rem;color:#146E6E;">Utfordringer</h1>
+  <div style="display:flex;flex-direction:column;gap:1rem;">
+    <div v-click style="background:#fff3f3;padding:1rem;border-radius:8px;border-left:4px solid #c0392b;">
+      <div style="font-size:1.1rem;font-weight:700;color:#c0392b;margin-bottom:0.3rem;">🔊 Mye støy</div>
+      <div style="font-size:0.85rem;color:#555;">Du er PL, tech lead, utvikler og support – alt på en gang</div>
+    </div>
+    <div v-click style="background:#fff8e6;padding:1rem;border-radius:8px;border-left:4px solid #f39c12;">
+      <div style="font-size:1.1rem;font-weight:700;color:#d68910;margin-bottom:0.3rem;">🎯 Filtrere ansvarsområde</div>
+      <div style="font-size:0.85rem;color:#555;">Hva er faktisk <em>ditt</em> problem? Lett å ta på seg for mye.</div>
+    </div>
+    <div v-click style="background:#e8f4f4;padding:1rem;border-radius:8px;border-left:4px solid #146E6E;">
+      <div style="font-size:1.1rem;font-weight:700;color:#146E6E;margin-bottom:0.3rem;">🤷 Lite feedback</div>
+      <div style="font-size:0.85rem;color:#555;">Ingen code review. Ingen som sier "bra jobba". Imposter syndrome.</div>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:0.8rem;">
+  <div style="position:relative;border-radius:8px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.15);">
+    <img src="/images/harold.jpg" style="width:100%;max-width:320px;display:block;" />
+  </div>
+  <div style="font-size:0.8rem;color:#666;font-style:italic;text-align:center;max-width:280px;">
+    "Når du er både prosjektleder og tech lead"
+  </div>
+</div>
+
+</div>
+
+<div class="ep-footer">
+  <span class="ep-logo-text">Epinova</span>
+  <span>All by Myself · Dialog 2026</span>
+</div>
+
+---
 layout: cover
 class: drama-bg
-title: Den Store Dagen
+title: D-Day
 ---
 
 <div class="cover-inner" style="align-items:center;justify-content:center;text-align:center;gap:0.3rem;position:relative;">
   <div style="font-size:3rem;line-height:1;">💥</div>
-  <h1 style="font-size:3.2rem;color:#FFB3B3;border:none;margin:0.2rem 0;">Den Store Dagen</h1>
-  <div style="font-size:1.2rem;color:rgba(255,255,255,0.8);font-style:italic;">
-    Granngården gikk ned. 6 timer. Prod.
-  </div>
+  <h1 style="font-size:4rem;color:#FFB3B3;border:none;margin:0.2rem 0;">D-Day</h1>
   
   <div v-click style="position:absolute;top:8%;left:5%;"><img src="/images/slut-i-lager.svg" style="height:28px;"/></div>
   <div v-click style="position:absolute;top:15%;right:12%;"><img src="/images/slut-i-lager.svg" style="height:32px;"/></div>
@@ -158,31 +210,29 @@ title: Den Store Dagen
     Det var meg.
   </div>
   <div v-click style="margin-top:0.8rem;border-radius:8px;overflow:hidden;max-width:220px;box-shadow:0 4px 20px rgba(0,0,0,0.5);">
-    <img src="/images/disaster-girl.jpg" style="width:100%;display:block;" />
+    <img src="/images/hide-the-pain.jpg" style="width:100%;display:block;" />
   </div>
 </div>
 
 ---
 layout: default
-title: Hva lærte jeg?
+title: Læring
 ---
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:1rem 2rem;height:calc(100% - 3rem);align-items:center;">
 
 <div>
-<h1 style="margin-bottom:1rem;font-size:2rem;">Etter 6 timer i panikk...</h1>
+<h1 style="margin-bottom:1rem;font-size:2rem;">Læring</h1>
+
+<p style="font-size:1.3rem;color:#146E6E;margin-bottom:1.5rem;font-weight:700;">
+  Våg å gjøre feil.
+</p>
 
 <div style="font-size:1rem;color:#333;line-height:1.8;">
-  <p style="margin-bottom:0.8rem;">🚨 <strong>Monitoring.</strong> Vit om det før kunden ringer.</p>
+  <p style="margin-bottom:0.8rem;">🚨 <strong>Vær i forkant.</strong> Vit om det før kunden ringer.</p>
   <p style="margin-bottom:0.8rem;">📝 <strong>Dokumentér alt.</strong> Fremtidig-meg husker ingenting.</p>
-  <p style="margin-bottom:0.8rem;">🤖 <strong>Copilot er code reviewer.</strong> Bedre enn ingen.</p>
   <p style="margin-bottom:0.8rem;">💬 <strong>Snakk med folk.</strong> Alene ≠ isolert.</p>
-  <p style="margin-bottom:0.8rem;color:#146E6E;font-weight:600;">🏆 <strong>Det er faktisk ganske kult.</strong></p>
 </div>
-
-<p style="font-size:0.9rem;color:#888;margin-top:1rem;font-style:italic;">
-  Og etter en sånn feil? Ingenting er skummelt lenger.
-</p>
 </div>
 
 <div style="display:flex;align-items:center;justify-content:center;">
